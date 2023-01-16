@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "463447915513",
+    "project_id": "occibulle",
+    "storage_bucket": "occibulle.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:463447915513:android:a5a4cf1ed3013e28805b28",
+        "android_client_info": {
+          "package_name": "fr.loic.occibulle"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "463447915513-vpodlh2ho24juqirufae3cqc89c6stgs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDRvawec6a_ZRZnRXx4KJXVtjgXFWPAHR0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "463447915513-vpodlh2ho24juqirufae3cqc89c6stgs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

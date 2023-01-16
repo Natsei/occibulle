@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Occi-Bulle</string>
+
+    <!-- page d'acceuil -->
+    <string name="home_page_title">Vos Favori</string>
+    <string name="home_page_section_last_selection">utilisé recemment</string>
+    <string name="home_page_emoji_name">Nom émoji</string>
+    <string name="home_page_emoji_desc">desc émoji</string>
+
+    <!-- Catégorie page -->
+    <string name="categorie_page_emoji_name">Nom émoji</string>
+    <string name="categorie_page_emoji_desc">desc émoji</string>
+
+    <!-- pop pup info emoji -->
+    <string name="popup_page_emoji_desc">desc émoji</string>
+    <string name="popup_page_emoji_name">Nom émoji</string>
+</resources>

@@ -1,0 +1,27 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Occibulle" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/blue</item>
+        <item name="colorPrimaryVariant">@color/lightBlue</item>
+        <item name="colorOnPrimary">@color/white</item>
+    </style>
+    <!-- text defaut -->
+    <style name="DefaultTextlightStyle">
+        <item name="android:textColor">@color/lightGray</item>
+        <item name="android:textSize">18sp</item>
+
+    </style>
+
+    <!-- text 2 defaut -->
+    <style name="DefaultTextdarkStyle" parent="DefaultTextlightStyle">
+        <item name="android:textColor">@color/darkGray</item>
+    </style>
+
+    <!-- text titre defaut -->
+    <style name="DefaultTextTitreStyle">
+        <item name="android:textColor">@color/darkGray</item>
+        <item name="android:textSize">24sp</item>
+
+    </style>
+</resources>
