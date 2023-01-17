@@ -8,14 +8,11 @@ import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
-import fr.loic.occibulle.EmojiModel
-import fr.loic.occibulle.EmojiRepository
-import fr.loic.occibulle.MainActivity
-import fr.loic.occibulle.R
+import fr.loic.occibulle.*
 
 
 class EmojiAdapter(
-    private val context: MainActivity,
+    val context: MainActivity,
     private val emojiList: List<EmojiModel>,
     private val layoutId: Int
     ) : RecyclerView.Adapter<EmojiAdapter.ViewHolder>() {
@@ -67,6 +64,11 @@ class EmojiAdapter(
             currentEmoji.liked = !currentEmoji.liked
             // mettre a jour l'object emoji
             repo.updateEmoji(currentEmoji)
+        }
+        // intéraction avec le click sur l'émoji
+        holder.itemView.setOnClickListener{
+            //afficher la popup
+            emojiPopop(this, currentEmoji).show()
         }
     }
 

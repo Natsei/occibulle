@@ -2,6 +2,7 @@ package fr.loic.occibulle
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import fr.loic.occibulle.fragments.CategorieFragment
 import fr.loic.occibulle.fragments.HomeFragment
 
 class MainActivity : AppCompatActivity() {

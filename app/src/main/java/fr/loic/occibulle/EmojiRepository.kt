@@ -46,8 +46,11 @@ class EmojiRepository {
 
         })
     }
-    fun updateEmoji(emoji: EmojiModel) {
-        databaseRef.child(emoji.id).setValue(emoji)
-    }
+    // update un object de la base
+    fun updateEmoji(emoji: EmojiModel) = databaseRef.child(emoji.id).setValue(emoji)
+
+    // supprimer une plnate de la base
+    fun deleteEmoji(emoji: EmojiModel) = databaseRef.child(emoji.id).removeValue()
+
 
 }

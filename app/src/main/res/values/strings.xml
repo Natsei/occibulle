@@ -12,6 +12,13 @@
     <string name="categorie_page_emoji_desc">desc émoji</string>
 
     <!-- pop pup info emoji -->
-    <string name="popup_page_emoji_desc">desc émoji</string>
+    <string name="popup_page_emoji_desc">Description Audio</string>
     <string name="popup_page_emoji_name">Nom émoji</string>
+    <string name="popup_page_emoji_subtitle">Audio</string>
+    
+    <!-- add emoji -->
+    <string name="add_emoji_page_upload_button">Charger Image</string>
+    <string name="add_emoji_page_name_input">Nom</string>
+    <string name="add_emoji_page_desc_input">Description Audio</string>
+    <string name="add_emoji_page_confir_button">Confirmer</string>
 </resources>
